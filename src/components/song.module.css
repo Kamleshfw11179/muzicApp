@@ -1,0 +1,34 @@
+*{
+    font-weight: 500;
+}
+.main1{
+display:flex;
+flex-direction: row;
+width:100%;
+justify-content: space-between;
+}
+.main1a{
+    margin-left: 10%;
+}
+.main1b{
+    margin-right: 10%;
+}
+.main1b>img{
+    width:150px;
+    border-radius: 50px;
+}
+.sl{
+    margin-left: 8%;
+}
+.sl1{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    border-bottom: 1px solid grey;
+}
+.sl1>p:nth-child(1){
+    margin-left: 10%;
+}
+.sl1>p:nth-child(2){
+    margin-left: 10%;
+}

@@ -1,0 +1,75 @@
+*{
+    font-weight: 500;
+}
+.main{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    width:80%;
+    column-gap: 7%;
+    row-gap: 40px;
+}
+.block{
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+.block>img{
+    width:97%;
+    height:70%;
+    margin: auto;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info>h5{
+    margin-top: -10px;
+}
+.info>p{
+    margin-top: -15px;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.filter1>input{
+    border:none;
+    border-bottom:1px solid grey;
+    outline: none;
+}
+
+.filter2>select{
+    width:200px;
+    border:none;
+    border-bottom:1px solid grey;
+}
+.filter3>select{
+    width:200px;
+    border:none;
+    border-bottom:1px solid grey;
+}
+.controls{
+   width:30%;
+   float: right;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-right: 2%;
+}
+.controls>button{
+    margin-left:3%;
+    margin-right:3%;
+    width:100px;
+    height:30px
+}
